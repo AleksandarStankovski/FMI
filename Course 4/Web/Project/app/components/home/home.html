@@ -1,0 +1,40 @@
+<div class="home-container">
+    <section class="home-top-container">
+    	<div class="container-lg">
+			<div class="home-top-title">
+				<h1>We design and develop <br/> innovative digital solutions.</h1>
+		    </div>
+		</div>
+        <div class="home-video-container">
+            <video autoplay="" muted="" preload="auto" loop class="home-video" poster="images/home-background.jpg">
+                <source src="videos/video1.webm" type="video/webm">
+            </video>
+        </div>
+        <div class="video-opacity"></div>
+    </section>
+    <section class="home-what-we-do-container">
+    	<div class="container-lg">
+    		<header>
+    			<h3>What we do</h3>
+    			<h4>Services tailored to your needs</h4>
+    			<hr>
+    		</header>
+    		<section class="home-what-we-do-row clearfix">
+    			<article data-ng-repeat="service in services" class="home-what-we-do-col">
+    				<a href="javascript:void(0)">
+    				    <div class="home-what-we-do-col-icon">
+    				    	<i class="{{service.icon}}"></i>
+    				    </div>
+    				    <div class="home-what-we-do-col-text">
+    				    	<h5>{{service.name}}</h5>
+    				    	<p>{{service.description}}</p>
+    				    </div>
+    				    <div class="home-what-we-do-col-btn">
+    				    	<span>Read more <i class="fa fa-chevron-right"></i></span>
+    				    </div>
+    				</a>
+    			</article>
+    		</section>
+    	</div>   	
+    </section>
+</div>

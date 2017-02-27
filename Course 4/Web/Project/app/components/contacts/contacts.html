@@ -1,0 +1,54 @@
+<div class="contacts-container" map-lazy-load="https://maps.google.com/maps/api/js">
+    <section class="contacts-top-container">
+    	<div class="container-lg">
+			<div class="contacts-top-title">
+				<h1>Hello!</h1>
+				<h2>What can we do for you?</h2>
+		    </div>
+		</div>
+    </section>
+    <section class="contacts">
+    	<div class="contacts-map">
+    		<header>
+    			<div class="container-lg">
+    			    <h3>Our offices</h3>
+    			    <h4>Our three offices are located in Europe</h4>
+    			</div>
+    		</header>
+    		<section class="social-container">
+    			<ul class="clearfix">
+    				<li>
+    					<a href="javascript:void(0)" class="social-facebook">
+    						<i class="fa fa-facebook" aria-hidden="true"></i>
+    					</a>
+    				</li>
+    				<li>
+    					<a href="javascript:void(0)" class="social-twitter">
+    						<i class="fa fa-twitter" aria-hidden="true"></i>
+    					</a>
+    				</li>
+    				<li>
+    					<a href="javascript:void(0)" class="social-linkedin">
+    						<i class="fa fa-linkedin" aria-hidden="true"></i>
+    					</a>
+    				</li>
+    				<li>
+    					<a href="javascript:void(0)" class="social-google-plus">
+    						<i class="fa fa-google-plus" aria-hidden="true"></i>
+    					</a>
+    				</li>
+    				<li>
+    					<a href="javascript:void(0)" class="social-instagram">
+    						<i class="fa fa-instagram" aria-hidden="true"></i>
+    					</a>
+    				</li>
+    			</ul>
+    		</section>
+    		<section>
+    			<ng-map scrollwheel="false" class="map" center="42.663092, 23.355058" zoom="13">
+                    <marker data-ng-repeat="office in offices" icon="images/{{office.icon}}" id="office{{$index}}}" position="[{{office.coordinates[0]}}, {{office.coordinates[1]}}]"></marker>
+                </ng-map>
+    		</section>
+    	</div>
+    </section>
+</div>

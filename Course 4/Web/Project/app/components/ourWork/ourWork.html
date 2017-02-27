@@ -1,0 +1,28 @@
+<div class="our-work-container">
+    <section class="our-work-top-container">
+    	<div class="container-lg">
+			<div class="our-work-top-title">
+				<h1>Case Studies</h1>
+				<h2>Take a look at how our projects were crafted</h2>
+		    </div>
+		</div>
+    </section>
+    <section class="our-work">
+    	<div class="clearfix">
+            <article data-ng-repeat="project in projects" class="our-work-{{$index+1}}" style="background-image: url(../images/{{project.background}});">
+                <a href="javascript:void(0)">
+                    <header>
+                        <p><span data-ng-repeat="tag in project.technologies">#{{tag}}</span></p>
+                        <h6>{{project.name}}</h6>
+                    </header>
+                    <section>
+                        <p>{{project.description}}</p>
+                        <div>
+                            <img data-ng-src="images/{{project.image}}">
+                        </div>
+                    </section>
+                </a> 
+            </article>
+        </div>
+    </section>
+</div>

@@ -1,0 +1,38 @@
+[
+	{
+        "id": "1",
+        "name": "Sport News",
+        "link": "",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "technologies": ["angulrJS", "nodeJS", "mobile"],
+        "background": "project-1-background.jpg",
+        "image": "project-1-image.jpg"
+	},
+	{
+        "id": "2",
+        "name": "Cars",
+        "link": "",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "technologies": ["angulrJS", "nodeJS", "responsive", "css3"],
+        "background": "project-2-background.jpg",
+        "image": "project-2-image.jpg"
+	},
+	{
+        "id": "3",
+        "name": "Sport News",
+        "link": "",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "technologies": ["angulrJS", "nodeJS", "jQuery", "responsive"],
+        "background": "project-3-background.jpg",
+        "image": "project-3-image.jpg"
+	},
+	{
+        "id": "4",
+        "name": "Sport News",
+        "link": "",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "technologies": ["angulrJS", "nodeJS", "jQuery"],
+        "background": "project-4-background.jpg",
+        "image": "project-4-image.jpg"
+	}
+]

@@ -1,0 +1,58 @@
+[
+	{
+        "id": "1",
+        "name": "Social networks",
+        "link": "",
+        "description": "Building custom social networks and online communities",
+        "icon": "fa fa-thumbs-o-up"
+	},
+    {
+        "id": "2",
+        "name": "Mobile",
+        "link": "",
+        "description": "Developing and designing cutting-edge apps for iPhone, iPad and Android devices",
+        "icon": "fa fa-mobile"
+    },
+    {
+        "id": "3",
+        "name": "Web",
+        "link": "",
+        "description": "Web design and development for businesses looking to develop a new brand or rebrand a successful company",
+        "icon": "fa fa-desktop"
+    },
+    {
+        "id": "4",
+        "name": "SEO",
+        "link": "",
+        "description": "Increase visibility within the search results to deliver high quality, targeted traffic to your website",
+        "icon": "fa fa-search"
+    },
+    {
+        "id": "5",
+        "name": "Prototyping",
+        "link": "",
+        "description": "Creating wireframes and clickable prototypes which illustrate features, content and interactions",
+        "icon": "fa fa-puzzle-piece"
+    },
+    {
+        "id": "6",
+        "name": "Branding",
+        "link": "",
+        "description": "Creating corporate identity including logos, stationery and on-going brand implementation",
+        "icon": "fa fa-cogs"
+    },
+    {
+        "id": "7",
+        "name": "Copywriting",
+        "link": "",
+        "description": "We create valuable content to both improve your rankings and keep visitors coming back",
+        "icon": "fa fa-pencil-square-o"
+    },
+    {
+        "id": "8",
+        "name": "Concept & strategy",
+        "link": "",
+        "description": "Taking a concept from idea to fully formed live project",
+        "icon": "fa fa-sitemap"
+    }
+]

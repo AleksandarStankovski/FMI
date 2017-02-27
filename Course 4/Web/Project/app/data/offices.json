@@ -1,0 +1,23 @@
+[
+	{
+        "id": "1",
+        "city": "София",
+        "address": "бул. Цариградско шосе 90",
+        "coordinates": [42.655166, 23.38708],
+        "icon": "map-marker.png"
+	},
+    {
+        "id": "2",
+        "city": "София",
+        "address": "бул. Симеоновско шосе 110",
+        "coordinates": [42.641324, 23.334305],
+        "icon": "map-marker.png"
+    },
+    {
+        "id": "3",
+        "city": "София",
+        "address": "бул. България 69",
+        "coordinates": [42.664229, 23.287807],
+        "icon": "map-marker.png"
+    }
+]
