@@ -1,0 +1,83 @@
+; Tue Jan 21 17:56:15 EET 2014
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+(definstances fn855202
+
+([KB_953507_Class27] of  Protein
+
+	(Brand "Amix")
+	(DescriptionProblem "Not satisfied with increasing weight")
+	(Name "PureFusion")
+	(Rating 3)
+	(WheyProtein F))
+
+([KB_953507_Class30] of  Protein
+
+	(Brand "OptimumNutrition")
+	(DescriptionProblem "Not satisfied with the amount of energy")
+	(Name "GoldStandard")
+	(Rating 7)
+	(WheyProtein T))
+
+([KB_953507_Class31] of  Gainer
+
+	(Brand "Amix")
+	(Carbohydrates F)
+	(DescriptionProblem "Not satisfied with the muscular endurance")
+	(Name "CarboJet")
+	(Rating 3))
+
+([KB_953507_Class32] of  Gainer
+
+	(Brand "BSN")
+	(Carbohydrates T)
+	(DescriptionProblem "Not satisfied with increasing weight")
+	(Name "TrueMass")
+	(Rating 7))
+
+([KB_953507_Class33] of  LCarnitin
+
+	(Brand "UNIVERSAL")
+	(DescriptionProblem "Not satisfied with losing weight")
+	(Name "Animal")
+	(Rating 6))
+
+([KB_953507_Class34] of  LCarnitin
+
+	(Brand "UNIVERSAL")
+	(DescriptionProblem "Not satisfied with the amount of power")
+	(Name "Super")
+	(Rating 4))
+
+([KB_953507_Class35] of  CreatineProduct
+
+	(Brand "Amix")
+	(CreatineMonohidrate TRUE)
+	(DescriptionProblem "Not satisfied with the recovery")
+	(Name "CreaTrix")
+	(Rating 7))
+
+([KB_953507_Class36] of  CreatineProduct
+
+	(Brand "PrimaForce")
+	(CreatineMonohidrate TRUE)
+	(DescriptionProblem "Not satisfied with explosive power")
+	(Name "Creaform")
+	(Rating 6))
+
+([KB_953507_Class37] of  NitricOxide
+
+	(Brand "BSN")
+	(DescriptionProblem "Not satisfied with endurance")
+	(Name "NOXplode")
+	(Rating 9))
+
+([KB_953507_Class38] of  NitricOxide
+
+	(Brand "USP")
+	(DescriptionProblem "Not satisfied with amount of power")
+	(Name "Jack3d")
+	(Rating 9))
+)
